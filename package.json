@@ -1,0 +1,16 @@
+{
+  "name": "plateful",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Recipe site with a meal planner and auto shopping list. Local test app.",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0"
+  }
+}
